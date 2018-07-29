@@ -1,0 +1,22 @@
+{
+  "presets": ["react", "env","es2015","stage-0"],
+  "env": {
+    "development": {
+    "plugins": [["react-transform", {
+       "transforms": [{
+         "transform": "react-transform-hmr",
+         
+         "imports": ["react"],
+         
+         "locals": ["module"]
+       }]
+     }
+     ],
+     "syntax-dynamic-import",
+     "transform-runtime",
+     "transform-remove-console",
+     "es6-promise"
+     ]
+    }
+  }
+}
