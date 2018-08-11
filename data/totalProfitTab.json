@@ -1,0 +1,146 @@
+[
+    {
+        "key": 1,
+        "name": "非普工业用电",
+        "fault": 0.9,
+        "prearrangement": "5%",
+        "mReached": 0.98,
+        "yReached": 0.098,
+        "progress": 0.8,
+        "statu": "exception",
+        "period": 0.3
+    },
+    {
+        "key": 2,
+        "name": "非普工业用电",
+        "fault": 0.9,
+        "prearrangement": "5%",
+        "mReached": 0.98,
+        "yReached": 0.098,
+        "progress": 0.5,
+        "statu": "exception",
+        "period": -0.3
+    },
+    {
+        "key": 3,
+        "name": "非普工业用电",
+        "fault": 0.9,
+        "prearrangement": "5%",
+        "mReached": 0.98,
+        "yReached": 0.098,
+        "progress": 0.6,
+        "statu": "exception",
+        "period": -0.3
+    },
+    {
+        "key": 4,
+        "name": "非普工业用电",
+        "fault": 0.9,
+        "prearrangement": "5%",
+        "mReached": 0.98,
+        "yReached": 0.098,
+        "progress": 0.5,
+        "statu": "exception",
+        "period": 0.3
+    },
+    {
+        "key": 5,
+        "name": "非普工业用电",
+        "fault": 0.9,
+        "prearrangement": "5%",
+        "mReached": 0.98,
+        "yReached": 0.098,
+        "progress": 0.5,
+        "statu": "exception",
+        "period": -0.8
+    },
+    {
+        "key": 6,
+        "name": "非普工业用电",
+        "fault": 0.9,
+        "prearrangement": "5%",
+        "mReached": 0.98,
+        "yReached": 0.098,
+        "progress": 0.5,
+        "statu": "exception",
+        "period": 0.3
+    },
+    {
+        "key": 7,
+        "name": "非普工业用电",
+        "fault": 0.9,
+        "prearrangement": "5%",
+        "mReached": 0.98,
+        "yReached": 0.098,
+        "progress": 0.5,
+        "statu": "exception",
+        "period": 0.3
+    },
+    {
+        "key": 8,
+        "name": "非普工业用电",
+        "fault": 0.9,
+        "prearrangement": "5%",
+        "mReached": 0.98,
+        "yReached": 0.098,
+        "progress": 0.5,
+        "statu": "exception",
+        "period": 0.3
+    },
+    {
+        "key": 9,
+        "name": "非普工业用电",
+        "fault": 0.9,
+        "prearrangement": "5%",
+        "mReached": 0.98,
+        "yReached": 0.098,
+        "progress": 0.5,
+        "statu": "exception",
+        "period": 0.3
+    },
+    {
+        "key": 10,
+        "name": "非普工业用电",
+        "fault": 0.9,
+        "prearrangement": "5%",
+        "mReached": 0.98,
+        "yReached": 0.098,
+        "progress": 0.5,
+        "statu": "exception",
+        "period": 0.3
+    },
+    {
+        "key": 11,
+        "name": "非普工业用电",
+        "fault": 0.9,
+        "prearrangement": "5%",
+        "mReached": 0.98,
+        "yReached": 0.098,
+        "progress": 0.5,
+        "statu": "exception",
+        "period": 0.3
+    },
+    {
+        "key": 12,
+        "name": "非普工业用电",
+        "fault": 0.9,
+        "prearrangement": "5%",
+        "mReached": 0.98,
+        "yReached": 0.098,
+        "progress": -0.5,
+        "statu": "exception",
+        "period": 0.3
+    },
+    {
+        "key": 13,
+        "name": "非普工业用电",
+        "fault": 0.9,
+        "prearrangement": "5%",
+        "mReached": 0.98,
+        "yReached": 0.098,
+        "progress": 0.5,
+        "statu": "exception",
+        "period": 0.3
+    }
+    
+]

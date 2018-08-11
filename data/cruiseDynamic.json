@@ -1,0 +1,23 @@
+[
+  {
+    "name": "战略绩效",
+    "url": "/Performance",
+    "route": "/cruiseTour/Performance"
+  },
+
+  {
+    "name": "业务运营",
+    "url": "/Operation",
+    "route": "/cruiseTour/Operation"
+  },
+   {
+    "name": "国际对标",
+    "url": "/International",
+    "route": "/cruiseTour/International"
+  },
+   {
+    "name": "管理情报",
+    "url": "/Intelligence",
+    "route": "/cruiseTour/Intelligence"
+  }
+]

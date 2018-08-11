@@ -2,7 +2,7 @@
  * @Author: lhp
  * @Date:   2018-07-27 20:33:10
  * @Last Modified by:   lhp
- * @Last Modified time: 2018-07-29 13:42:56
+ * @Last Modified time: 2018-08-11 12:17:54
  */
 const path = require("path");
 const glob = require("glob");
@@ -31,6 +31,7 @@ module.exports = {
 		historyApiFallback: true, //不跳转
 		inline: true, //实时刷新
 		port: 8081, //默认8080
+		host: '0.0.0.0', //访问地址
 		hot: true //热加载
 	},
 
@@ -78,6 +79,14 @@ module.exports = {
 			}, {
 				test: /\.(eot|svg|ttf|woff|woff2)(\?\S*)?$/,
 				loader: 'file-loader'
+			}, {
+				test: /\.js$/,
+				loader: 'eslint-loader',
+				enforce: "pre",
+				include: [path.resolve(__dirname, 'src')], // 指定检查的目录
+				options: { // 这里的配置项参数将会被传递到 eslint 的 CLIEngine 
+					formatter: require('eslint-friendly-formatter') // 指定错误报告的格式规范
+				}
 			}
 		]
 	},

@@ -1,0 +1,80 @@
+[
+    {
+        "name": "监控",
+        "number": 0,
+        "url": "/Monitoring",
+        "children": [
+            {
+                "name": "利润总额",
+                "url": "/TotalProfit"
+            },
+            {
+                "name": "业务运营",
+                "url": "/TurboCRM"
+            },
+            {
+                "name": "平均停电时间",
+                "url": "/Outage"
+            },
+            {
+                "name": "经营检视",
+                "url": "/ManagementReview"
+            }
+        ]
+    },
+    {
+        "name": "消息",
+        "number": 0,
+        "url": "/Info"
+    },
+    {
+        "name": "预警",
+        "number": 0,
+        "url": "/Warning"
+    },
+    {
+        "name": "分析",
+        "number": 0,
+        "url": "/Analyse",
+        "children": [
+            {
+                "name": "利润总额",
+                "url": "/totalProfit"
+            },
+            {
+                "name": "平均停电时间",
+                "url": "/outage"
+            },
+            {
+                "name": "利润总额",
+                "url": "/totalProfit"
+            }
+        ]
+    },
+    {
+        "name": "指挥",
+        "number": 0,
+        "url": "/Command"
+       
+    },
+    
+    {
+        "name": "管理",
+        "number": 0,
+        "url": "/Manager",
+        "children": [
+            {
+                "name": "用户管理",
+                "url": "/ManagesUser"
+            },
+            {
+                "name": "角色管理",
+                "url": "/ManagesRole"
+            },
+            {
+                "name": "资源管理",
+                "url": "/ManagesResorces"
+            }
+        ]
+    }
+]

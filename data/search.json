@@ -1,0 +1,10 @@
+[
+    { "id": 1, "name": "全省", "pid": 0, "level": 1 },
+    { "id": 2, "name": "江门市", "pid": 1, "level": 2 },
+    { "id": 3, "name": "茂名市", "pid": 1, "level": 2 },
+    { "id": 4, "name": "电白", "pid": 3, "level": 3 },
+    { "id": 5, "name": "蓬江区", "pid": 2, "level": 3 },
+    { "id": 6, "name": "湛江市", "pid": 1, "level": 2 },
+    { "id": 7, "name": "asd", "pid": 6, "level": 3 },
+    { "id": 8, "name": "qqqqqq", "pid": 7, "level": 2 }
+]

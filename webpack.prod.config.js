@@ -2,7 +2,7 @@
  * @Author: lhp
  * @Date:   2018-07-27 20:33:10
  * @Last Modified by:   lhp
- * @Last Modified time: 2018-07-29 13:48:24
+ * @Last Modified time: 2018-08-01 22:57:35
  */
 const path = require("path");
 const glob = require("glob");
@@ -131,6 +131,7 @@ module.exports = {
 		new PruifyCSSPlugin({ //删除无用的css样式
 			paths: glob.sync(path.join(__dirname, '*.html')) //下所有的html
 		})
+
 	]
 
 };
