@@ -1,23 +1,46 @@
 {
-  "presets": ["react", "env","es2015","stage-0"],
-  // "plugins": ["transform-remove-console"],
+  // "compact": false,
+  "presets": [
+    "react",
+    "env",
+    [
+      "es2015",
+      {
+        "modules": false
+      }
+    ],
+    "stage-0"
+  ],
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "libraryDirectory": "lib",
+        "style": true
+      }
+    ],
+  ],
   "env": {
-    "development": {
-    "plugins": [["react-transform", {
-       "transforms": [{
-         "transform": "react-transform-hmr",
-         
-         "imports": ["react"],
-         
-         "locals": ["module"]
-       }]
-     }
-     ],
-     "syntax-dynamic-import",
-     "transform-runtime",
-    //  "transform-remove-console",
-     "es6-promise"
-     ]
+    "production": {
+      "plugins": [
+        "transform-remove-console",
+        [
+          "import",
+          {
+            "libraryName": "antd",
+            "libraryDirectory": "lib",
+            "style": true
+          }
+        ],
+        [
+          "transform-react-remove-prop-types",
+          {
+            "mode": "remove",
+            "removeImport": true
+          }
+        ]
+      ]
     }
   }
 }
